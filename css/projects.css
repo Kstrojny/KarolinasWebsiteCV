@@ -19,3 +19,9 @@
 .header3.odin {
     border: 5px solid RGB(204,149,67);
 }
+
+.textbox {
+    padding: 20px;
+    border: 2px dotted red;
+    margin: 20px;
+}
