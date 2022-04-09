@@ -2,4 +2,24 @@
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    box-sizing: border-box;
+}
+
+.greetings {
+    animation: rainbow 10s linear infinite;
+    background-color:gainsboro;
+    padding: 20px;
+    border: 2px solid navy;
+    margin: 50px;
+}
+img {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.textbox {
+    padding: 20px;
+    margin: auto;
+    height: 100px;
+    width: 600px;
 }
