@@ -6,12 +6,41 @@
 }
 
 .textbox {
+    display: inline-box;
     padding: 20px;
-    border: 2px dotted red;
-    margin: 20px;
+    margin: 20;
+    width: 800px;
+    border-radius: 25px;
 }
 
-img {
-    max-width: 50%;
-    max-height: 50%;
+.thebody{
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 25px;
+}
+
+.date {
+    margin-top: -10px;
+}
+
+ul {
+    display: inline-box;
+    list-style: none;
+    padding: 0px;
+    margin: 10px;
+    background-color: skyblue;
+}
+
+li {
+    display: inline;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+    height: 40px;
+    width: 110px;
+}
+
+li :hover{
+    background-color: royalblue;
+    color: white;
 }

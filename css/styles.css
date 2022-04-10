@@ -2,24 +2,55 @@
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    box-sizing: border-box;
+    box-sizing: border-box;                     /*Used to identify the true dimensions of the box without having to add h + w + border  + padding */
+}
+
+.thebody{
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 25px;
 }
 
 .greetings {
-    animation: rainbow 10s linear infinite;
-    background-color:gainsboro;
+    border-radius: 25px;
+    background-color: royalblue;
+    Color:white;
     padding: 20px;
-    border: 2px solid navy;
     margin: 50px;
+    /*animation: rainbow 10s linear infinite;*/
 }
+
 img {
-    max-width: 20%;
-    max-height: 20%;
+    border-radius: 25px;
 }
 
 .textbox {
+    display: inline-box;
     padding: 20px;
-    margin: auto;
-    height: 100px;
-    width: 600px;
+    margin: 20px;
+    width: 800px;
+    border-radius: 25px;
+}
+
+ul {
+    display: inline-box;
+    border-radius: 25px;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid royalblue;
+}
+
+li {
+    display: inline;
+    font-size: 16px;
+    padding-top: 10px;
+    margin: 20px;
+    height: 50px;
+    width: 100px;
+}
+
+li :hover{
+    background-color: royalblue;
+    color: white;
 }

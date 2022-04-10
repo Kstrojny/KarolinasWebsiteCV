@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+.thebody{
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 25px;
+}
+
 .header3 {
     padding: 15px;
     margin-top: 20px;
@@ -13,15 +19,45 @@
 }
 
 .header3.arduino{
-    border: 5px solid RGB(0,151,157);
+    border-radius: 25px;
+    background-color: RGB(0,151,157);
+    color: white;
+    font-size: 26px;
 }
 
 .header3.odin {
-    border: 5px solid RGB(204,149,67);
+    background-color: RGB(204,149,67);
+    border-radius: 25px;
+    color: white;
+    font-size: 26px;
 }
 
 .textbox {
+    display: inline-box;
     padding: 20px;
-    border: 2px dotted red;
     margin: 20px;
+    width: 800px;
+    border-radius: 25px;
+}
+
+ul {
+    display: inline-box;
+    list-style: none;
+    padding: 0px;
+    margin: 10px;
+    background-color: skyblue;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 25px;
+    height: 40px;
+    width: 110px;
+}
+
+li :hover{
+    background-color: royalblue;
+    color: white;
 }
