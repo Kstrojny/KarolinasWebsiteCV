@@ -4,11 +4,14 @@
     text-align: center;
     box-sizing: border-box;                     /*Used to identify the true dimensions of the box without having to add h + w + border  + padding */
 }
-
 .thebody{
     display: inline-block;
     background-color: skyblue;
     border-radius: 25px;
+}
+
+p{
+    line-height: 1.2em;
 }
 
 .greetings {

@@ -40,6 +40,10 @@
     border-radius: 25px;
 }
 
+p{
+    line-height: 1.2em;
+}
+
 ul {
     display: inline-box;
     list-style: none;

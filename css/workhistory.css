@@ -5,10 +5,15 @@
     box-sizing: border-box;
 }
 
+p{
+    line-height: 1.2em;
+}
+
 .textbox {
     display: inline-box;
     padding: 20px;
-    margin: 20;
+    margin-left: auto;
+    margin-right: auto;
     width: 800px;
     border-radius: 25px;
 }

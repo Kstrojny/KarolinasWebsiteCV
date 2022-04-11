@@ -4,18 +4,28 @@
     text-align: center;
     box-sizing: border-box;
 }
+.thebody{
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 25px;
+    width: 900px;
+}
+
+p{
+    line-height: 1.2em;
+}
 
 .textbox {
+    display:inline-box ;
     width: 800px;
     padding: 20px;
     margin: auto;
     border-radius: 25px;
 }
 
-.thebody{
-    display: inline-block;
-    background-color: skyblue;
-    border-radius: 25px;
+.titles{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 img {
@@ -46,6 +56,6 @@ li {
 }
 
 li :hover{
-    background-color: roy;
+    background-color: royalblue;
     color: white;
 }

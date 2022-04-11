@@ -9,8 +9,13 @@
     display: inline-block;
     background-color: skyblue;
     border-radius: 25px;
+    margin-top: 50px;
 }
-    
+
+p{
+    line-height: 1.2em;
+}
+
 .textbox {
         display: inline-box;
         padding: 20px;
